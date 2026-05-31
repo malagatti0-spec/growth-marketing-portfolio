@@ -1,48 +1,28 @@
-# Project Repository
+Growth Marketing Portfolio — Ajay M Malagatti
 
-This repository is initialized and ready for development. It currently contains only the essential Git metadata and configuration files.
+Tools Installed
+- Cursor IDE — AI-native code editor for rapid building and iteration
+- Claude Code v2.1.123 — Anthropic's agentic AI coding assistant, 
+  configured with NVIDIA Nemotron via Ollama for local inference
+- Codex — OpenAI's code generation extension for Cursor
 
-## Getting Started
+Steps Completed
+1. Installed Cursor IDE from cursor.com
+2. Installed Claude Code extension and authenticated via Ollama 
+   with NVIDIA Nemotron-3 model (free local inference)
+3. Installed Codex extension in Cursor
+4. Created this public GitHub repository
+5. Opened repository in Cursor and initialized Claude Code workspace
 
-To begin working on a project in this repository:
+Issues I Ran Into & How I Solved Them
+- Claude Code login — The standard login requires a paid Anthropic 
+  subscription. Instead of paying, I configured Claude Code to run 
+  through Ollama with NVIDIA's Nemotron model — free, local, no API costs.
+- Finding the right approach — Researched 3rd-party provider options 
+  (Bedrock, Foundry, Vertex) before discovering the Ollama route worked 
+  best for free local inference.
 
-1. **Choose your technology stack** (e.g., Python, JavaScript/TypeScript, Java, etc.)
-2. **Initialize your project** using the appropriate tools for your stack:
-   - For Node.js: `npm init` or `yarn init`
-   - For Python: Create `setup.py` or `pyproject.toml`
-   - For other languages: Use their respective project initiators
-3. **Install dependencies** as needed
-4. **Begin development**
-
-## Repository Structure
-
-Once initialized, a typical project structure might look like:
-
-```
-project-root/
-├── src/                 # Source code
-├── tests/               # Test files
-├── docs/                # Documentation
-├── .gitignore           # Git ignore rules
-├── README.md            # This file
-├── LICENSE              # License file
-└── [config files]       # Technology-specific configuration (package.json, requirements.txt, etc.)
-```
-
-## Contributing
-
-If you'd like to contribute to this project:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-Specify your preferred license here (MIT, Apache 2.0, GPL, etc.) or add a LICENSE file to the repository.
-
----
-
-*This README.md will be updated as the project develops.*
+Why This Matters for Growth Marketing
+Modern growth teams move fast. AI coding tools like Claude Code let 
+marketers build landing pages, run automation workflows, and ship 
+experiments without waiting on engineering.
